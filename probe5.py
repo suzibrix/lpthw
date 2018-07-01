@@ -1,0 +1,12 @@
+print("How many pennies do you have in your pocket?", end=' ')
+pennies = input('->')
+print("What color do you hate the most?", end=' ')
+colorz = input('-->')
+print("Who do you love the most?", end=' ')
+beloved = input('--->')
+print("What quality do you value the most in a person?", end=' ')
+quality = input('---->')
+
+print(f"You are {pennies}\u00A2 richer than you thought.")
+print(f"Horiscope : A person named {beloved} will wear {colorz} to your party.")
+print(f"If you believe {beloved} will exhibit {quality} you are greatly mistaken.")
