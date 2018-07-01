@@ -1,8 +1,4 @@
-## ex18-land, VLL was here
-## yup there is breakage
-## python3: can you even error message? so much syntax error!
-## debugged, we hope 
-# this one is like your scripts with argv
+#this one is like your scripts with argv
 def print_two(*args):
     arg1, arg2 = args
     print(f"arg1: {arg1}, arg2: {arg2}")
@@ -11,7 +7,7 @@ def print_two(*args):
 def print_two_again(arg1, arg2):
     print(f"arg1: {arg1}, arg2: {arg2}")
 
-# this just takes one argument
+# this takes one argument
 def print_one(arg1):
     print(f"arg1: {arg1}")
 
